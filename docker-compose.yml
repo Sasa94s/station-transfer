@@ -1,0 +1,5 @@
+services:
+  station_transfer:
+    build: .
+    ports:
+      - "8081:8080"
